@@ -20,7 +20,7 @@ def login():
 
         # Validasi username dan password
         if username == "Unilever" and password == "unv11":
-            print("✅ Login berhasil! Selamat datang di BrINV APP - Unilever.\n")
+            print("Login berhasil! Selamat datang di BrINV APP - Unilever.\n")
             return True
         else:
             print(f"Username atau password salah! Sisa Percobaan Anda : {percobaan-1}")
@@ -295,7 +295,7 @@ def ubah_produk():
             p["kategori"] = input("Kategori baru (kosongkan jika tidak diubah): ") or p["kategori"]
 
             # Tampilkan data baru
-            print("\n✅ Data produk berhasil diperbarui!")
+            print("\nData produk berhasil diperbarui!")
             print("=== DATA BARU PRODUK ===")
             print(f"Kode Produk   : {p['kode']}")
             print(f"Brand         : {p['brand']}")
@@ -397,7 +397,8 @@ if login():
         elif pilihan == "4":
             menu_delete()
         elif pilihan == "5":
-            print("Terima kasih telah menggunakan BrINV System! 👋")
+            print("Terima kasih telah menggunakan BrINV System!")
             break
         else:
             print("Pilihan tidak valid, silakan coba lagi.")
+
