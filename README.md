@@ -13,8 +13,7 @@ BrINV provides a simplified simulation to demonstrate how an automated system ca
 **Benefits:** 
 - Develop a functional **inventory management system** to simulate real-world warehouse operations.  
 - Practice implementing **Python fundamentals**, including loops, conditionals, functions, and input validation.  
-- Demonstrate the use of **CRUD operations (Create, Read, Update, Delete)** in data management.  
-- Apply **modular programming** principles for structured and maintainable code.  
+- Demonstrate the use of **CRUD operations (Create, Read, Update, Delete)** in data management.   
 - Provide users with a simplified digital system to monitor inventory efficiently.  
 
 ---
