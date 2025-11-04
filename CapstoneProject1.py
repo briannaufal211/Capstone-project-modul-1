@@ -262,7 +262,7 @@ def menu_update():
 1. Ubah data produk
 2. Kembali ke menu utama
 """)
-        pilih = input("Pilih menu (1-4): ")
+        pilih = input("Pilih menu (1-2): ")
 
         if pilih == "1":
             ubah_produk()
@@ -401,4 +401,5 @@ if login():
             break
         else:
             print("Pilihan tidak valid, silakan coba lagi.")
+
 
